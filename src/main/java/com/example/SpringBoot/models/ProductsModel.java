@@ -1,4 +1,4 @@
-package com.example.SprigBoot.models;
+package com.example.SpringBoot.models;
 
 
 import jakarta.persistence.*;
@@ -21,6 +21,7 @@ public class ProductsModel implements Serializable {
     public UUID getIdProduct() {
         return idProduct;
     }
+
 
     public void setIdProduct(UUID idProduct) {
         this.idProduct = idProduct;
